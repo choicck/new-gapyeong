@@ -97,9 +97,9 @@
             border-top: 1px solid #e2e8f0;
             text-align: center;
         }
-        .btn-sms {
+        .btn-sms,
+        .btn-pdf {
             display: inline-block;
-            background-color: #34c759;
             color: white;
             padding: 12px 24px;
             border-radius: 8px;
@@ -108,8 +108,17 @@
             margin-top: 15px;
             transition: background 0.2s;
         }
+        .btn-sms {
+            background-color: #34c759;
+        }
         .btn-sms:hover {
             background-color: #28a745;
+        }
+        .btn-pdf {
+            background-color: #007aff;
+        }
+        .btn-pdf:hover {
+            background-color: #005ecb;
         }
         .phone-link {
             color: #007aff;
@@ -161,6 +170,9 @@
         <a href="sms:01021452115?body=%5B%EC%83%88%EB%A1%9C%EC%A6%B4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%5D%20%EC%B0%B8%EC%97%AC%20%ED%9D%AC%EB%A7%9D%ED%95%A9%EB%8B%88%EB%8B%A4." class="btn-sms">
             문자 보내기 (참여 의사 공유)
         </a>
+        <a href="https://drive.google.com/file/d/1WdbvpMlPLP9bG4l8Xh_HhYpx_7DhJ7uk/view?usp=sharing" class="btn-pdf" target="_blank" rel="noopener noreferrer">
+            선언문 보기
+        </a>
     </div>
     
     <div class="qr-section">
@@ -177,4 +189,3 @@
 
 </body>
 </html>
-
